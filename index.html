@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Payment Slip Animation</title>
+  </head>
+  <body>
+    <header>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="20px"
+        height="20px"
+        viewBox="0 0 24 24"
+      >
+        <path
+          fill="currentColor"
+          d="M20 11v2H8l5.5 5.5l-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5L8 11z"
+        ></path>
+      </svg>
+      <h1>Payment status</h1>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="20px"
+        height="20px"
+        viewBox="0 0 256 256"
+      >
+        <path
+          fill="currentColor"
+          d="m229.66 109.66l-48 48a8 8 0 0 1-11.32-11.32L204.69 112H165a88 88 0 0 0-85.23 66a8 8 0 0 1-15.5-4A103.94 103.94 0 0 1 165 96h39.71l-34.37-34.34a8 8 0 0 1 11.32-11.32l48 48a8 8 0 0 1 0 11.32M192 208H40V88a8 8 0 0 0-16 0v128a8 8 0 0 0 8 8h160a8 8 0 0 0 0-16"
+        ></path>
+      </svg>
+    </header>
+    <main>
+      <div class="container">
+        <div class="slip-bar">
+          <div class="slip-hole"></div>
+        </div>
+        <!-- <div class="payment-wrapper"> -->
+        <div class="payment-slip">
+          <div class="content">
+            <h2 class="title">Trip Invoice - Japan summer 2025</h2>
+            <div class="payment">
+              <div class="payment-row">
+              <span>Total:</span>
+              <span class="amount">$30,000</span>
+            </div>
+            <div class="payment-row">
+              <span>Per Person:</span>
+              <span class="amount">$6,000</span>
+            </div>
+            </div>
+            
+            <div class="info-row">
+              <div class="profile-box">
+                <img src="/images/boy.png" alt="profile icon" class="profile" />
+              </div>
+              
+              <span class="label">You</span>
+              <span class="status"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20px"
+                  height="20px"
+                  viewBox="0 0 2048 2048"
+                  class="tick"
+                >
+                  <path
+                    fill="#1ab845"
+                    d="M1024 0q141 0 272 36t244 104t207 160t161 207t103 245t37 272q0 141-36 272t-104 244t-160 207t-207 161t-245 103t-272 37q-141 0-272-36t-244-104t-207-160t-161-207t-103-245t-37-272q0-141 36-272t104-244t160-207t207-161T752 37t272-37m603 685l-136-136l-659 659l-275-275l-136 136l411 411z"
+                  ></path>
+                </svg>
+                paid</span
+              >
+            </div>
+            <div class="info-row">
+              
+              <div class="profile-box">
+                <img
+                src="/images/profile.png"
+                alt="profile icon"
+                class="profile"
+              />
+              </div>
+              <span class="label">Olabode</span>
+              <span class="status"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20px"
+                  height="20px"
+                  viewBox="0 0 2048 2048"
+                  class="tick"
+                >
+                  <path
+                    fill="#1ab845"
+                    d="M1024 0q141 0 272 36t244 104t207 160t161 207t103 245t37 272q0 141-36 272t-104 244t-160 207t-207 161t-245 103t-272 37q-141 0-272-36t-244-104t-207-160t-161-207t-103-245t-37-272q0-141 36-272t104-244t160-207t207-161T752 37t272-37m603 685l-136-136l-659 659l-275-275l-136 136l411 411z"
+                  ></path>
+                </svg>
+                paid</span
+              >
+            </div>
+            <div class="info-row">
+               <div class="profile-box">
+                <img src="/images/man.png" alt="profile icon" class="profile" />
+              </div>
+              
+              <span class="label">Lukman</span>
+              <span class="status"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20px"
+                  height="20px"
+                  viewBox="0 0 2048 2048"
+                  class="tick"
+                >
+                  <path
+                    fill="#1ab845"
+                    d="M1024 0q141 0 272 36t244 104t207 160t161 207t103 245t37 272q0 141-36 272t-104 244t-160 207t-207 161t-245 103t-272 37q-141 0-272-36t-244-104t-207-160t-161-207t-103-245t-37-272q0-141 36-272t104-244t160-207t207-161T752 37t272-37m603 685l-136-136l-659 659l-275-275l-136 136l411 411z"
+                  ></path>
+                </svg>
+                paid</span
+              >
+            </div>
+            <div class="info-row">
+              
+              <div class="profile-box">
+                <img
+                src="/images/profile.png"
+                alt="profile icon"
+                class="profile"
+              />
+              </div>
+              <span class="label">Hope</span>
+              <span class="status"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20px"
+                  height="20px"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="#d38f1e"
+                    d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10s-4.477 10-10 10m1-10V7h-2v7h6v-2z"
+                  ></path>
+                </svg>
+                unpaid</span
+              >
+            </div>
+            <div class="info-row">
+              
+              <div class="profile-box">
+                <img
+                src="/images/bussiness-man.png"
+                alt="profile icon"
+                class="profile"
+              />
+              </div>
+              <span class="label">Dara</span>
+              <span class="status"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20px"
+                  height="20px"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="#d38f1e"
+                    d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10s-4.477 10-10 10m1-10V7h-2v7h6v-2z"
+                  ></path>
+                </svg>
+                unpaid</span
+              >
+            </div>
+            <div class="payment-progress">
+              <div class="progress-box">
+                <div class="progress-header">
+                <span class="progress-label">Payment Status</span>
+                <span class="progress-status">UNPAID</span>
+                </div>
+                <div class="progress-bar">
+                <div class="progress-step">
+                  <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20px"
+                  height="20px"
+                  viewBox="0 0 2048 2048"
+                  class="tick"
+                >
+                  <path
+                    fill="#1ab845"
+                    d="M1024 0q141 0 272 36t244 104t207 160t161 207t103 245t37 272q0 141-36 272t-104 244t-160 207t-207 161t-245 103t-272 37q-141 0-272-36t-244-104t-207-160t-161-207t-103-245t-37-272q0-141 36-272t104-244t160-207t207-161T752 37t272-37m603 685l-136-136l-659 659l-275-275l-136 136l411 411z"
+                  ></path>
+                </svg>
+                </span>
+                </div>
+                <div class="progress-line"></div>
+                <div class="progress-step">
+                  <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20px"
+                  height="20px"
+                  viewBox="0 0 2048 2048"
+                  class="tick"
+                >
+                  <path
+                    fill="#1ab845"
+                    d="M1024 0q141 0 272 36t244 104t207 160t161 207t103 245t37 272q0 141-36 272t-104 244t-160 207t-207 161t-245 103t-272 37q-141 0-272-36t-244-104t-207-160t-161-207t-103-245t-37-272q0-141 36-272t104-244t160-207t207-161T752 37t272-37m603 685l-136-136l-659 659l-275-275l-136 136l411 411z"
+                  ></path>
+                </svg>
+                </span>
+                </div>
+                <div class="progress-line"></div>
+                <div class="progress-step">
+                  <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20px"
+                  height="20px"
+                  viewBox="0 0 2048 2048"
+                  class="tick"
+                >
+                  <path
+                    fill="#1ab845"
+                    d="M1024 0q141 0 272 36t244 104t207 160t161 207t103 245t37 272q0 141-36 272t-104 244t-160 207t-207 161t-245 103t-272 37q-141 0-272-36t-244-104t-207-160t-161-207t-103-245t-37-272q0-141 36-272t104-244t160-207t207-161T752 37t272-37m603 685l-136-136l-659 659l-275-275l-136 136l411 411z"
+                  ></path>
+                </svg>
+                </span>
+                </div>
+                <div class="progress-line"></div>
+                <div class="progress-step inactive"></div>
+                <div class="progress-line"></div>
+                <div class="stamp-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 256 256">
+	                    <path fill="currentColor" d="M224 224a8 8 0 0 1-8 8H40a8 8 0 0 1 0-16h176a8 8 0 0 1 8 8m0-80v40a16 16 0 0 1-16 16H48a16 16 0 0 1-16-16v-40a16 16 0 0 1 16-16h56.43L88.72 54.71A32 32 0 0 1 120 16h16a32 32 0 0 1 31.29 38.71L151.57 128H208a16 16 0 0 1 16 16m-103.21-16h14.42l16.43-76.65A16 16 0 0 0 136 32h-16a16 16 0 0 0-15.65 19.35ZM208 184v-40H48v40z"></path>
+                    </svg>
+                </div>
+              </div>
+              
+              </div>
+              <div class="action-buttons">
+                <button class="btn btn-primary">Send Reminder</button>
+                <button class="btn btn-secondary">Download Invoice</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="payment-method">
+            <span>Payment Method</span>
+            <div class="card-info">
+                <span style="color: #86868b; font-weight: 500;">Visa Ending 2986</span>
+                <div class="visa-logo">VISA</div>
+            </div>
+        </div>
+
+        <button class="pay-now-btn">Pay Now</button>
+        <!-- </div> -->
+      </div>
+    </main>
+  </body>
+</html>
