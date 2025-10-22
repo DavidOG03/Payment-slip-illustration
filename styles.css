@@ -67,6 +67,7 @@ header svg {
   width: 90%;
   min-width: 300px;
   max-width: 355px;
+  max-height: 0.5rem;
   background: linear-gradient(
     to bottom,
     rgba(25, 25, 25) 0.5%,
@@ -81,10 +82,18 @@ header svg {
   overflow: hidden;
   animation: slideIn 1s ease-out forwards;
   position: relative;
-  top: -4.75rem;
+  top: -3.75rem;
   left: 50%;
   transform: translateX(-50%) rotateX(8deg) rotateY(0deg);
   border-radius: 0.25rem;
+  animation: reveal 3s ease-out 1s forwards;
+}
+
+@keyframes reveal {
+  to {
+    max-height: 1000px;
+    top: -4.75rem;
+  }
 }
 
 .container .payment-slip .content {
@@ -288,9 +297,15 @@ header svg {
   border-radius: 12px;
   margin-bottom: 1rem;
   border-top: 1px solid #d1d1d650;
-  margin-top: -3.75rem;
+  margin-top: 0rem;
+  animation: shift 0.5s ease-out 1.5s forwards;
 }
 
+@keyframes shift {
+  to {
+    margin-top: -3.75rem;
+  }
+}
 .payment-method span {
   font-size: 14px;
   color: #86868b;
